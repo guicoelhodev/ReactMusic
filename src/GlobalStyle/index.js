@@ -1,0 +1,41 @@
+import  styled, { createGlobalStyle} from "styled-components";
+
+const GlobalStyle = createGlobalStyle`
+
+body {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    width:100%;
+    min-height:100vh;
+    height:100%;
+    background-color: var(--whitesmoke);
+
+    * {
+        font-family: 'Montserrat', sans-serif;
+        margin:0;
+        padding:0;
+    }
+
+    
+}
+
+:root {
+    --orange        : #F39200;
+    --light-orange  : #F3EBCC;
+    --whitesmoke    : #EDEDED;
+    --white         : #ffffff;
+    --gray          : #DEDEDE;
+    --black         : #222222;
+
+}
+`
+export default GlobalStyle;
+
+export const CenterContent = styled.div`
+margin:0 auto;
+width:100%;
+position:relative;
+max-width:1280px;
+height:auto;
+`

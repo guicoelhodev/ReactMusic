@@ -16,7 +16,6 @@ export const Container = styled.div`
 
   @media (max-width: 580px) {
     width: 100%;
-
     flex-direction: row;
   }
 `;
